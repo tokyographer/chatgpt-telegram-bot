@@ -3,6 +3,7 @@ services:
     name: ai-telegram-bot
     env: python
     plan: starter
+    runtime: python-3.12
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
     envVars:
